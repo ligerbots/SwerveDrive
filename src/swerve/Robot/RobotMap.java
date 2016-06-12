@@ -72,7 +72,7 @@ public class RobotMap {
             driveTrainRobotDrive41.setExpiration(10);
             driveTrainRobotDrive41.setSensitivity(0.5);
             driveTrainRobotDrive41.setMaxOutput(1.0);
-            driveTrainRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kFrontRight, true);
+            driveTrainRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kFrontRight, false);
             driveTrainRobotDrive41.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, false);
             /*
             swerveDrive = new RobotDrive(swerveLeft, swerveRight);
